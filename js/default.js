@@ -15,3 +15,4 @@ if (ansuer === number) {
 
 //結果を表示
 document.getElementById('choise').textContent = message;
+window.prompt(message);
