@@ -3,17 +3,13 @@ var nunber = Math.floor(Math.random() * 3);
 var ansuer = parseInt(window.prompt('数あてゲーム。0～2の数字を入力してください！'));
 
 var message;
-if (ansuer === number)
-{
+if (ansuer === number) {
     message = '当たり';
-} else if (ansuer < number)
-{
+} else if (ansuer < number) {
     message = '残念！もっと大きいです';
-} else if (number < ansuer)
-{
+} else if (number < ansuer) {
     message = '残念！もっと小さいです';
-} else
-{
+} else {
     message = '０～３の数字を入力してください';
 }
 
